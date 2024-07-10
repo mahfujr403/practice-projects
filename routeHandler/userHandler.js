@@ -86,7 +86,7 @@ router.get('/allUser', async (req, res) => {
         });
     } catch (err) {
         res.status(500).json({
-            message: 'User not found',
+            message: 'User not found!',
         });
     }
 });
